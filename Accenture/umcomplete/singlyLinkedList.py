@@ -76,17 +76,11 @@ if __name__ == '__main__':
     myList = LinkedList()
 
     print(myList.head)
+    # print(fun([6,2,5,4,9,7,2,1,5,9]))
 
     myList.add(12)
     myList.add(2)
     myList.add(22)
     myList.add(32)
     myList.add(42)
-
-    print(myList.size())
-
-    print(myList.search(93))
-    print(myList.search(12))
-    print(myList.getAllData())
-    myList.remove(12)
     print(myList.getAllData())

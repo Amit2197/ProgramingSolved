@@ -126,7 +126,43 @@
 #     a=a+1
 # print(a+b+c)
 
-s = '3 + 5 = x'
-A = s.split('=')
-print(f'{A[0].strip()} = {eval(A[0])}')
-print(A)
+# s = '3 + 5 = x'
+# A = s.split('=')
+# print(f'{A[0].strip()} = {eval(A[0])}')
+# print(A)
+# for i in range(5,0, -1):
+#     print(i)
+# print(list(1*i for i in range(5,0,-1)))
+# # reverse string word wise
+# s='Welcome to mettl'
+# print(' '.join(s.split(' ')[::-1]))
+
+# def main():
+#     a=0
+#     b=
+# b=5
+# a=2
+# c=2
+# print(0)
+# *((a+1==1)?&b:&a)=a?b:c
+# x=123
+# i={
+#     print("c" "++")
+# }
+# print(len(i))
+# for x in i:
+#     print(x)
+
+def sample(n):
+    i=0
+    s=0
+    n=127
+    while(n>0):
+        r=n%10
+        p=8^i
+        s=s+p*r
+        i+=1
+        n=n/10
+    return s
+
+print(sample(127))
